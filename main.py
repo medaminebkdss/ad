@@ -4,7 +4,7 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 # تعيين مفتاح API الخاص بك
-API_KEY = 'YOUR_API_KEY'
+API_KEY = 'AIzaSyBPGWVjByBBhsC4DzI2lBaLwZgGUoKfTDc'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
